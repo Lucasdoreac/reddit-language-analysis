@@ -1,0 +1,23 @@
+title: "Análise de Linguagem no Reddit"
+description: "Projeto de análise de padrões linguísticos e tendências"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+# Configurações do Just the Docs
+search_enabled: true
+heading_anchors: true
+
+# Links do footer
+footer_content: "Copyright &copy; 2025 Reddit Language Analysis Project. Distributed under an MIT license."
+
+# Links auxiliares
+aux_links:
+  "Ver no GitHub":
+    - "https://github.com/Lucasdoreac/reddit-language-analysis"
+
+# Configurações de navegação
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/Lucasdoreac/reddit-language-analysis
+    hide_icon: false
+    opens_in_new_tab: true
