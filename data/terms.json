@@ -1,0 +1,11 @@
+{
+    "terms": [
+        "uvcamera",
+        "sunscreen"
+    ],
+    "metadata": {
+        "last_updated": "2025-02-17",
+        "version": "1.0",
+        "description": "Lista de termos para análise de padrões de linguagem no Reddit"
+    }
+}
