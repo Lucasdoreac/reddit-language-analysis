@@ -1,67 +1,91 @@
 # Reddit Language Analysis Project
 
-A research project analyzing language patterns and coded terms on Reddit using Natural Language Processing (NLP) techniques.
+Um projeto de pesquisa para analisar padrões de linguagem e termos codificados no Reddit usando técnicas de Processamento de Linguagem Natural (PLN).
 
-## Project Overview
+## Visão Geral do Projeto
 
-This project aims to analyze language patterns and usage trends on Reddit through:
-- Automated data collection using Reddit's API
-- Natural Language Processing analysis
-- Data visualization and statistical analysis
-- Web-based results presentation
+Este projeto visa analisar padrões de linguagem no Reddit através de:
+- Coleta automatizada de dados usando a API do Reddit
+- Análise de linguagem natural e processamento de texto
+- Visualização de dados e análise estatística
+- Publicação de resultados via GitHub Pages
 
-## Repository Structure
+## Documentação
+
+- [Metodologia Detalhada](docs/methodology.md) - Explicação completa da abordagem e motivação
+- [Detalhes Técnicos](docs/technical_details.md) - Documentação técnica do código
+- [Site do Projeto](https://lucasdoreac.github.io/reddit-language-analysis/) - Resultados e visualizações
+
+## Estrutura do Repositório
 
 ```
-/scraper        - Reddit data collection scripts
-/data           - Dataset storage (raw and processed)
-/analysis       - NLP and statistical analysis notebooks
-/visualization  - Data visualization scripts
-/docs           - Project documentation and website
+/scraper        - Scripts de coleta de dados do Reddit
+/data           - Armazenamento de datasets
+/analysis       - Notebooks de análise e PLN
+/visualization  - Scripts de visualização de dados
+/docs           - Documentação e site do projeto
 ```
 
-## Setup and Installation
+## Configuração e Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/Lucasdoreac/reddit-language-analysis.git
 cd reddit-language-analysis
 ```
 
-2. Install dependencies:
+2. Instale as dependências:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Configure Reddit API credentials:
-- Copy `config.example.ini` to `config.ini`
-- Add your Reddit API credentials
+3. Configure as credenciais do Reddit:
+- Copie `config.example.ini` para `config.ini`
+- Adicione suas credenciais da API do Reddit
 
-## Usage
+## Uso
 
-1. Data Collection:
+1. Coleta de Dados:
 ```bash
 python scraper/collect_data.py
 ```
 
-2. Run Analysis:
-- Navigate to the `analysis` directory
-- Run Jupyter notebooks in sequence
+2. Análise:
+- Navegue até o diretório `analysis`
+- Execute os notebooks Jupyter em sequência
 
-3. Generate Visualizations:
+3. Visualização:
 ```bash
 python visualization/generate_charts.py
 ```
 
-## Contributing
+## Pipeline de Análise
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests.
+1. **Coleta de Dados**
+   - Uso da API oficial do Reddit via PRAW
+   - Coleta de posts e comentários
+   - Filtragem por termos específicos
 
-## License
+2. **Processamento de Texto**
+   - Limpeza e normalização
+   - Análise de contexto
+   - Identificação de padrões
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+3. **Análise e Visualização**
+   - Análise temporal
+   - Redes de co-ocorrência
+   - Estatísticas descritivas
 
-## Acknowledgments
+## Contribuindo
 
-- Reddit API and PRAW documentation
-- Research papers and references cited in documentation
+Contribuições são bem-vindas! Por favor, leia nosso [Guia de Contribuição](CONTRIBUTING.md) para detalhes sobre como participar do projeto.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Agradecimentos
+
+- Documentação do PRAW e API do Reddit
+- Comunidade de PLN e Ciência de Dados
+- Pesquisadores e referências citadas na documentação
