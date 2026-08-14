@@ -1,3 +1,9 @@
+---
+layout: default
+title: Metodologia
+nav_order: 2
+---
+
 # Metodologia de Análise
 
 ## Contexto e Motivação
