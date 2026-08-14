@@ -1,3 +1,9 @@
+---
+layout: default
+title: Detalhes técnicos
+nav_order: 4
+---
+
 # Documentação Técnica
 
 Este documento detalha os aspectos técnicos do projeto de análise de linguagem no Reddit.
